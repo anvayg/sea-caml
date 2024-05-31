@@ -1,2 +1,12 @@
 (library
- (name sea_caml))
+ (name sea_caml)
+ (modules 
+   compile
+   lex
+   settings
+   tokens)
+ (libraries batteries ppx_deriving))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

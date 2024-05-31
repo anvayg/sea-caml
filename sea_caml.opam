@@ -11,6 +11,8 @@ doc: "https://url/to/documentation"
 bug-reports: "https://github.com/username/reponame/issues"
 depends: [
   "ocaml"
+  "batteries"
+  "cmdliner"
   "dune" {>= "3.15"}
   "odoc" {with-doc}
 ]

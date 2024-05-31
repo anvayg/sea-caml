@@ -1,4 +1,8 @@
 (executable
  (public_name sea_caml)
  (name main)
- (libraries sea_caml))
+ (libraries sea_caml cmdliner))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

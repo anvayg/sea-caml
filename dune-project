@@ -19,7 +19,11 @@
  (name sea_caml)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends 
+  ocaml
+  batteries
+  cmdliner 
+  dune)
  (tags
   (topics "to describe" your project)))
 
